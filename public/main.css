@@ -1,0 +1,93 @@
+.comment-box {
+    padding: 25px;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+
+.CommentBoxHeading {
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.CommentListHeading {
+    letter-spacing: 0.05em;
+}
+
+.comment-list {
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid darkred;    
+}
+
+.comment {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid green;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* Comment Form*/
+
+.CommentFormHeading {
+    letter-spacing: 0.025em;
+}
+
+.nameBox {
+    height: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.commentBox {
+    height: 20px;
+    border-radius: 5px;
+    width: 80%;    
+}
+
+.comment-form {
+    border: 3px solid purple;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.label {
+    color: black;
+    letter-spacing: 0.1em
+}
+
+.button {
+    margin-left: 30px;
+    font-size:0.75em;
+    padding: 10px;
+    color:#000;
+    border:2px solid gray;
+    text-align:center;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(darkgray), to(gray));
+	background:-moz-linear-gradient(0% 90% 90deg, darkgray, gray);
+
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;    
+}
+
+.button:hover {
+    color:black;
+    border: 2px solid black;
+    font-size: 0.95em;
+}
+
+.button:active {
+	background:#4195DD;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#003C82), to(#4195DD));
+	background:-moz-linear-gradient(0% 90% 90deg, #4195DD, #003C82);
+}

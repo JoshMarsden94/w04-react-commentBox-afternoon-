@@ -1,7 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var CommentBox = require('./components/CommentBox');
+
 ReactDOM.render(
-  <h1>Hello</h1>,
+  <CommentBox />,
   document.getElementById('root')
 );
